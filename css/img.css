@@ -1,0 +1,19 @@
+.arrow-img{
+    width: 200px;
+    height: auto;
+}
+
+.profile-img{
+    width: 200px;
+    height: auto;
+}
+
+.knowledge-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 250px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid var(--Mocha);
+    object-fit: cover;
+}

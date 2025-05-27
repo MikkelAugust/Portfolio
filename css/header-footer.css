@@ -1,7 +1,9 @@
+/*header Content*/
+
 header{
     padding: 5px;
     justify-content: start;
-    margin-bottom: 50px;
+    margin:20px 10px 50px 10px;
     background-color: var(--almond);
     border-radius: 5px;
 }
@@ -9,24 +11,29 @@ header{
 .logo-img{
     width: 50px;
     height: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .header-nav{
     display: flex;
     flex-direction: row;
     justify-content: start, space-between;
-    gap: 30px;
-    margin: 20px 50px 0 10px;
+    gap: 40px;
+    margin: 30px 50px 0 20px;
 }
 
 .header-nav a{
     margin-top: 15px;
-    color: black;
+    color: var(--Espresso);
     text-decoration: none;
     transition: transform 0.3s ease;
 }
 
 .header-nav a:hover{
     transform: translateY(-6px);
+    color: var(--Chestnut);
+    text-decoration: underline;
 }
+
+/*Footer Content*/
+
