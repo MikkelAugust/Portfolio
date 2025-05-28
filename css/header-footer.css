@@ -19,7 +19,8 @@ header{
     flex-direction: row;
     justify-content: start, space-between;
     gap: 40px;
-    margin: 30px 50px 0 20px;
+    margin: 30px 0 0 20px;
+    padding: 5px;
 }
 
 .header-nav a{
@@ -27,6 +28,7 @@ header{
     color: var(--Espresso);
     text-decoration: none;
     transition: transform 0.3s ease;
+    font-size: 18px;
 }
 
 .header-nav a:hover{
@@ -37,3 +39,21 @@ header{
 
 /*Footer Content*/
 
+@media screen and (max-width: 474px){
+
+    header{
+        width: auto;
+        text-align: center;
+    }
+
+    .header-nav{
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-nav a{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
