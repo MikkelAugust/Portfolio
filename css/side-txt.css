@@ -4,6 +4,8 @@
   align-items: center;
   height: 100%;
   margin-top: 200px;
+  position: relative;
+  z-index: 999;
 }
 
 .creator-year,
@@ -11,15 +13,17 @@
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   font-size: clamp(1rem, 2vw, 2rem);
-  color: var(--almond-30);
+  color: var(--Espresso);
   font-weight: 100;
+  z-index: 999;
 }
 
 .creator-line {
     width: 1px;
     height: clamp(200px, 10vh, 200px);
-    background-color: var(--almond-30);
+    background-color: var(--Espresso);
     margin: 10px 0;
+    z-index: 999;
 }
 
 .creator-txt {
@@ -32,4 +36,5 @@
     align-items: center;
     justify-content: center;
     padding: 20px 0;
+    z-index: 999;
 }

@@ -1,0 +1,30 @@
+ .carousel-section.earlier-projects {
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+   position: relative;
+ }
+
+ .carousel-main {
+   width: 100%;
+   height: 100%;
+ }
+
+ .carousel-track {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+ }
+
+ .carousel-track li {
+   width: 100%;
+   height: 100%;
+ }
+
+ .carousel-image {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+ }

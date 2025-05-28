@@ -1,0 +1,81 @@
+.about-point2 {
+    background-color: var(--Taupe);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.projects-box {
+  position: relative;
+  max-width: 500px;
+  margin: auto;
+  z-index: 1;
+}
+
+.site-img {
+  display: none;
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.site-img.active {
+  display: block;
+}
+
+
+.slider-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  z-index: 2;
+  position: relative;
+}
+
+.dot {
+  height: 16px;
+  width: 16px;
+  margin: 0 8px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.dot:hover {
+  background-color: #999;
+  transform: scale(1.1);
+}
+
+.dot.active {
+  background-color: #333;
+}
+
+
+@media (max-width: 600px) {
+  .about-point2 {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+  }
+
+  .projects-box {
+    max-width: 90%;
+  }
+
+  .site-img {
+    height: auto;
+    max-height: 200px;
+  }
+
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+  }
+}

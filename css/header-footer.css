@@ -4,7 +4,7 @@ header{
     padding: 5px;
     justify-content: start;
     margin:20px 10px 50px 10px;
-    background-color: var(--almond);
+    background: var(--almond-gradient);
     border-radius: 5px;
 }
 
@@ -25,7 +25,7 @@ header{
 
 .header-nav a{
     margin-top: 15px;
-    color: var(--Espresso);
+    color: var(--almond);
     text-decoration: none;
     transition: transform 0.3s ease;
     font-size: 18px;
@@ -37,7 +37,51 @@ header{
     text-decoration: underline;
 }
 
+
 /*Footer Content*/
+.site-footer {
+  background-color: var(--Mocha);
+  color: var(--almond);
+  padding: 40px 20px;
+  text-align: left;
+  position: relative;
+  z-index: 1000;
+  bottom: 0;
+}
+
+.footer-contact {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-contact h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.footer-contact a {
+  color: var(--almond);
+  text-decoration: underline;
+}
+
+.footer-img {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background: var(--almond-gradient);
+}
+
+
 
 @media screen and (max-width: 474px){
 
