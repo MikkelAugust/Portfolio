@@ -37,6 +37,16 @@
     height: auto;
 }
 
+.footer-img {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background: var(--almond-gradient);
+}
+
 @media screen and (max-width: 1166px) {
     .profile-img{
         width: 150px;
@@ -45,5 +55,17 @@
     .knowledge-icon {
     width: 30px;
     height: auto;
+    }
 }
+
+@media screen and (max-width: 600px) {
+.footer-img {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 20%;
+    height: 10%;
+    border-radius: 5px;
+    background: var(--almond-gradient);
+    }
 }

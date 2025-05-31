@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
     { href: "https://gamehub-shop.netlify.app/", imgSrc: "/img/slider/Gamehub2.png", alt: "GameHub image" },
     { href: "https://gamehub-shop.netlify.app/", imgSrc: "/img/slider/Gamehub3.png", alt: "GameHub image" },
     { href: "https://gamehub-shop.netlify.app/", imgSrc: "/img/slider/Gamehub4.png", alt: "GameHub image" },
-    { href: "https://csm-eh.netlify.app/", imgSrc: "", alt: "Community Science Museum image" },
-    { href: "https://csm-eh.netlify.app/", imgSrc: "", alt: "Community Science Museum image" },
-    { href: "https://csm-eh.netlify.app/", imgSrc: "", alt: "Community Science Museum image" },
-    { href: "https://csm-eh.netlify.app/", imgSrc: "", alt: "Community Science Museum image" },
+    { href: "https://csm-eh.netlify.app/", imgSrc: "/img/slider/CSM1.png", alt: "Community Science Museum image" },
+    { href: "https://csm-eh.netlify.app/", imgSrc: "/img/slider/CSM2.png", alt: "Community Science Museum image" },
+    { href: "https://csm-eh.netlify.app/", imgSrc: "/img/slider/CSM3.png", alt: "Community Science Museum image" },
+    { href: "https://csm-eh.netlify.app/", imgSrc: "/img/slider/CSM4.png", alt: "Community Science Museum image" },
     { href: "https://hotview-labs-blog.netlify.app/", imgSrc: "/img/slider/HVL1.png", alt: "HotViewLab image" },
     { href: "https://hotview-labs-blog.netlify.app/", imgSrc: "/img/slider/HVL2.png", alt: "HotViewLab image" },
     { href: "https://hotview-labs-blog.netlify.app/", imgSrc: "/img/slider/HVL3.png", alt: "HotViewLab image" },
@@ -34,13 +34,15 @@ document.addEventListener("DOMContentLoaded", () => {
     slideTrack.appendChild(li);
   });
 
+
   let currentIndex = 0;
   const intervalTime = 3000;
   const allSlides = slideTrack.querySelectorAll("li");
 
   function showSlide(index) {
     allSlides.forEach((slide, i) => {
-      slide.style.display = i === index ? "block" : "none";
+      slide.style.opacity = i === index ? "1" : "0";
+      slide.style.zIndex = i === index ? "1" : "0";
     });
   }
 

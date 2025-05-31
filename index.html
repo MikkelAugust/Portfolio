@@ -23,8 +23,8 @@
         <nav class="header-nav">
             <img class="logo-img" src="/img/Portfolio-logo.png" alt="Portfolio-Icon">
             <a href="#color-palette">About Me</a>
-            <a href="Portfolio">Portfolio</a>
-            <a href="Contact">Contact</a>
+            <a href="#experience-box">Projects</a>
+            <a href="#footer-contact">Contact</a>
         </nav>
         <a href=""></a>
     </header>
@@ -38,14 +38,6 @@
         </div>
       </aside>
     </div>
-
-<section aria-label="Earlier Projects">
-  <div class="carousel-section earlier-projects">
-    <div class="carousel-main">
-      <ul class="carousel-track" data-project-slides></ul>
-    </div>
-  </div>
-</section>
 
     <main>
 
@@ -74,6 +66,20 @@
           </div>
         </section>
 
+        <div class="carousel-section earlier-projects">
+          <div class="carousel-main">
+              <ul class="carousel-track" data-project-slides></ul>
+              <div class="carousel-description-box">
+              <h2>Building Ideas into Interfaces</h2>
+            <ul>
+              <li>Fully responsive websites built with HTML, CSS, and JavaScript</li>
+              <li>Interactive UI features and dynamic sliders using vanilla JavaScript</li>
+              <li>Clean, accessible code designed for performance and clarity</li>
+            </ul>
+            </div>
+          </div>
+        </div>
+
         <section id="color-palette" class="about-me">
             <div class="about-grid">
                 
@@ -98,18 +104,20 @@
                     </div>
                 </div>
 
-                <div class="experience-box">
+                <div id="experience-box" class="experience-box">
                     <div class="about-point2">
                         <h2>Some of my work this far</h2>
                         <div class="projects-box">
-                            <a href="https://gamehub-shop.netlify.app/" target="_blank">
-                                <img src="/img/Gamehub.png" alt="Gamehub" class="site-img active">
+                            <a href="https://hotview-labs-blog.netlify.app/" target="_blank">
+                              <img src="/img/HowViewLabs.png" alt="HotViewLabs" class="site-img active">
                             </a>
+
+                            <a href="https://gamehub-shop.netlify.app/" target="_blank">
+                                <img src="/img/Gamehub.png" alt="Gamehub" class="site-img ">
+                            </a>
+
                             <a href="https://csm-eh.netlify.app/" target="_blank">
                                 <img src="/img/Museum.png" alt="Museum" class="site-img">
-                            </a>
-                            <a href="https://hotview-labs-blog.netlify.app/" target="_blank">
-                                <img src="/img/HowViewLabs.png" alt="HotViewLabs" class="site-img">
                             </a>
                         </div>
                         <div class="slider-dots">
@@ -124,7 +132,7 @@
         </section>
     </main>
 
-    <footer class="site-footer">
+    <footer id="footer-contact" class="site-footer">
       <div class="footer-contact">
         <h2>Contact</h2>
         <ul>
@@ -138,5 +146,6 @@
     </footer>
 
     <script src="/js/portfolio.js"></script>
+    <script src="/js/slider.js" defer></script>
 </body>
 </html>
