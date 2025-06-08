@@ -14,6 +14,8 @@ I'm a front-end developer passionate about creating clean, user-friendly, and re
 A responsive, educational website built to engage young learners and families.  
 It features exhibition pages, event listings, and contact forms — designed to promote science in an accessible way.
 
+Link: (https://csm-eh.netlify.app/)
+
 ---
 
 ## 🎮 GameHub
@@ -22,6 +24,8 @@ It features exhibition pages, event listings, and contact forms — designed to 
 
 A mock video game e-commerce platform where users can browse games, view details, and add titles to their cart.  
 The design is fully responsive and uses modern layout techniques to enhance user experience.
+
+Link: (https://gamehub-shop.netlify.app/)
 
 ---
 
@@ -32,4 +36,9 @@ The design is fully responsive and uses modern layout techniques to enhance user
 A modern blog platform focused on the latest tech trends.  
 Users can read, post, and manage blog entries, with a focus on structured content, filtering, and user-friendly design.
 
+Link: (https://hotview-labs-blog.netlify.app/)
+
 ---
+
+
+Socials:
