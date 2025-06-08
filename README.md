@@ -41,4 +41,8 @@ Link: (https://hotview-labs-blog.netlify.app/)
 ---
 
 
-Socials:
+📫 Contact
+	•	✉️ Email: mikand04000@stud.noroff.no
+	•	📍 Location: Kristiansand, Norway
+	•	💼 Portfolio: (https://mikkel-andaas.netlify.app/)
+	•	💬 LinkedIn: (https://www.linkedin.com/in/mikkel-august-andaas-146033116/)
